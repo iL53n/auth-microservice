@@ -1,0 +1,8 @@
+ru:
+  model:
+    errors:
+      ad:
+        name:
+          blank: 'Укажите имя'
+        email:
+          blank: 'Укажите электронную почту'
