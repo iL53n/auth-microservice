@@ -1,5 +1,5 @@
 class User < Sequel::Model
-  plugin :secure_password
+  plugin :secure_password, include_validations: false
 
   NAME_FORMAT = %r{\A\w+\z}
 
