@@ -1,5 +1,5 @@
 class UserRoutes < Application
-  helpers PaginationLinks
+  # helpers PaginationLinks
 
   post '/' do
     user_params = validate_with!(UserParamsContract)
