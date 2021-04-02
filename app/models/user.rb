@@ -3,7 +3,7 @@ class User < Sequel::Model
 
   NAME_FORMAT = %r{\A\w+\z}
 
-  one_to_many :sessions, class: :UserSession
+  # one_to_many :sessions, class: :UserSession
 
   def validate
     super

@@ -1,3 +1,5 @@
 require_relative 'config/environment'
 
-run AuthRoutes
+run Rack::URLMap.new(
+  '/v1/signup' => UserRoutes
+)
