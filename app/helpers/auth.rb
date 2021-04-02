@@ -7,6 +7,8 @@ module Auth
     {}
   end
 
+  private
+
   def matched_token
     result = auth_header&.match(AUTH_TOKEN)
     return if result.blank?
@@ -15,6 +17,6 @@ module Auth
   end
 
   def auth_header
-    request.headers['Authorization']
+    request.env['HTTP_AUTHORIZATION']
   end
 end
