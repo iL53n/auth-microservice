@@ -1,7 +1,7 @@
 module JwtEncoder
   extend self
 
-  HMAC_SECRET = #Rails.application.secrets.secret_key_base
+  HMAC_SECRET = Settings.app.secret
 
   def encode(payload)
     JWT.encode(payload, HMAC_SECRET)
