@@ -1,4 +1,5 @@
 require 'sinatra/extension'
+require_relative 'validations'
 
 module ApiErrors
   extend Sinatra::Extension
