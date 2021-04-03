@@ -13,13 +13,13 @@ RSpec.describe Auth::FetchUserService do
 
   context 'invalid parameters' do
     it 'does not assign user' do
-      result = subject.call('invalid')
+      result = subject.call(nil)
 
       expect(result.user).to be_nil
     end
 
     it 'adds an error' do
-      result = subject.call('invalid')
+      result = subject.call(nil)
 
       expect(result).to be_failure
       expect(result.errors).to include('Доступ к ресурсу ограничен')
