@@ -11,6 +11,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="activesupport (v6.0.3.6, Remote-rvm: ruby-2.6.3-p62 [library]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bcrypt (v3.1.16, Remote-rvm: ruby-2.6.3-p62 [library]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v2.2.1, Remote-rvm: ruby-2.6.3-p62 [library]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="concurrent-ruby (v1.1.8, Remote-rvm: ruby-2.6.3-p62 [library]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="config (v2.2.3, Remote-rvm: ruby-2.6.3-p62 [library]) [gem]" level="application" />
@@ -27,6 +29,7 @@
     <orderEntry type="library" scope="PROVIDED" name="dry-logic (v1.1.0, Remote-rvm: ruby-2.6.3-p62 [library]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="dry-schema (v1.6.1, Remote-rvm: ruby-2.6.3-p62 [library]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="dry-types (v1.5.1, Remote-rvm: ruby-2.6.3-p62 [library]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="dry-validation (v1.5.6, Remote-rvm: ruby-2.6.3-p62 [library]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="factory_bot (v5.2.0, Remote-rvm: ruby-2.6.3-p62 [library]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="fast_jsonapi (v1.5, Remote-rvm: ruby-2.6.3-p62 [library]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="minitest (v5.14.4, Remote-rvm: ruby-2.6.3-p62 [library]) [gem]" level="application" />
@@ -48,7 +51,14 @@
     <orderEntry type="library" scope="PROVIDED" name="sequel (v5.32.0, Remote-rvm: ruby-2.6.3-p62 [library]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sinatra (v2.0.8.1, Remote-rvm: ruby-2.6.3-p62 [library]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sinatra-contrib (v2.0.8.1, Remote-rvm: ruby-2.6.3-p62 [library]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="thread_safe (v0.3.6, Remote-rvm: ruby-2.6.3-p62 [library]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tilt (v2.0.10, Remote-rvm: ruby-2.6.3-p62 [library]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="tzinfo (v1.2.9, Remote-rvm: ruby-2.6.3-p62 [library]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="zeitwerk (v2.4.2, Remote-rvm: ruby-2.6.3-p62 [library]) [gem]" level="application" />
+  </component>
+  <component name="RakeTasksCache">
+    <option name="myRootTask">
+      <RakeTaskImpl id="rake" />
+    </option>
   </component>
 </module>
