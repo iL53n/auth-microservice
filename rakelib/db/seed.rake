@@ -10,11 +10,7 @@ namespace :db do
       seeds = File.expand_path('../../db/seeds', __dir__)
       version = args.version.to_i if args.version
 
-      p db
-      p seeds
-
-
-      Sequel::Seeder.apply(db, seeds, target: version)
+      Sequel::Seeder.apply(db, 'db/seeds', target: version)
     end
   end
 end
