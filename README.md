@@ -16,7 +16,7 @@ Sinatra microservice for Auth
 1. Clone repo:
 
 ```
-git clone git@github.com:psylone/auth-microservice.git && cd auth-microservice
+git clone https://github.com/iL53n/auth-microservice && cd auth-microservice
 ```
 
 2. Install dependencies and create db:
