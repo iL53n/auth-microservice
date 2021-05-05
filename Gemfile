@@ -9,6 +9,8 @@ gem 'puma', '~> 4.3.0'
 
 gem 'sinatra', '~> 2.0.0', require: 'sinatra/base'
 gem 'sinatra-contrib', '~> 2.0.0'
+gem 'rack-ougai', '~> 0.2.1'
+gem 'rack-request-id', '~> 0.0.4'
 
 gem 'i18n', '~> 1.8.2'
 gem 'config', '~> 2.2.1'

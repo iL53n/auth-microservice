@@ -4,6 +4,7 @@ queue = channel.queue('auth', durable: true)
 
 
 queue.subscribe(manual_ack: true) do |delivery_info, properties, payload|
+  Thread.current[:request_id] = properties.headers['request_id']
   payload = JSON(payload)
 
   uuid = Auth.extracted_token(payload['token'])['uuid']
