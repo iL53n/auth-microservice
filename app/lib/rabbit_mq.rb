@@ -2,7 +2,11 @@ module RabbitMQ
   extend self
 
   def connection
-    @connection ||= Bunny.new.start
+    @connection ||= Bunny.new(
+      host: Settings.rabbitmq.host,
+      username: Settings.rabbitmq.username,
+      password: Settings.rabbitmq.password
+    ).start
   end
 
   def channel

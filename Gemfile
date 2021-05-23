@@ -21,6 +21,8 @@ gem 'sequel', '~> 5.32.0'
 gem 'sequel_secure_password', '~> 0.2.15'
 gem 'bunny', '~> 2.15.0'
 
+gem 'amazing_print', '~> 1.1'
+
 gem 'dry-initializer', '~> 3.0.3'
 gem 'dry-validation', '~> 1.5.0'
 
